@@ -1,4 +1,4 @@
-#  React Native password generator
+# React Native password generator
 
 🔐 Project Description: It is a password generator developed for React Native. The password generator is highly effective in such a way that it can generate passwords based on different patterns which include small case, camel case, uppercase, numbers, and several patterns. By entering the length of patterns, it can generate efficient passwords within no time. 
 
