@@ -17,7 +17,7 @@ import BouncyCheckbox from 'react-native-bouncy-checkbox';
 const PasswordSchema = Yup.object().shape({
   passwordLength: Yup.number()
     .min(4, 'Should be min  of 4 characters')
-    .min(16, 'Should be max  of 16 characters')
+    .max(20, 'Should be max  of 20 characters')
     .required('Length is required'),
 });
 
@@ -63,7 +63,6 @@ export default function App() {
       result += characters.charAt(characterIndex);
     }
     return result;
-    console.log('pawan');
   };
   const resetPasswordState = () => {
     setPassword('');
